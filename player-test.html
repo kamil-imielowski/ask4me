@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!--wowzaplayer js-->
+	<script type="text/javascript" src="//player.wowza.com/player/latest/wowzaplayer.min.js"></script>
+	<!--wowzaplayer end-->
+	
+</head>
+<body>
+
+<h1>ASK FOR ME - Player do ogladania transmisji</h1>
+<div>
+	<!-- Kod do oglądania -->
+	<?php
+	$id_stream = "testask"; // tu zmienna np: ID transmisji, nazwa uzytkownika nadającego itp.
+	$ip_server = file_get_contents("wowzaBalancer.txt");
+	$ip_server = "167.114.211.128:1935";
+	$urlplayer = "https://59d1dcdf890ea.streamlock.net/webrtc/ask_".$id_stream."/playlist.m3u8";
+	?>
+	<div id="video" style="height:400px; width:600px"></div>
+	<script type="text/javascript">
+	WowzaPlayer.create('video', {
+			"license":"PLAY1-3KHUp-GfF8B-9QkQB-wpnmW-V3HF4",
+			"title":"",
+			"description":"",
+			"sourceURL":"<?php echo  $urlplayer;  ?>",
+			"autoPlay":true,
+			"volume":"75",
+			"mute":false,
+			"loop":false,
+			"audioOnly":false,
+			"uiShowQuickRewind":true,
+			"uiQuickRewindSeconds":"30"
+		}
+	);
+	</script>
+	<!-- koniec Kod do oglądania -->
+</div>
+
+</body>
+</html>

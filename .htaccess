@@ -1,0 +1,70 @@
+RewriteEngine On
+ 
+ 
+#index
+RewriteRule ^home/?$ ./index.php [NC,L]
+ 
+ 
+#login
+RewriteRule ^login/?$ ./login.php [NC,L]
+ 
+
+#register
+RewriteRule ^register/([0-9a-zA-Z_-]+)$ register.php?action=$1 [NC,L]
+RewriteRule ^register/?$ register.php [NC,L]
+ 
+ 
+#dashboards
+RewriteRule ^dashboard-user/?$ ./dashboard-user.php [NC,L]
+RewriteRule ^dashboard-model/?$ ./dashboard-model.php [NC,L]
+ 
+
+#live-cams
+RewriteRule ^live-cams/?$ ./live-cams.php [NC,L]
+ 
+
+#contest
+RewriteRule ^contest/?$ ./contest.php [NC,L]
+ 
+ 
+#escort
+RewriteRule ^escort/?$ ./escort.php [NC,L]
+ 
+
+#store
+RewriteRule ^store/?$ ./store.php [NC,L]
+ 
+
+ 
+#cart
+RewriteRule ^cart/?$ ./cart.php [NC,L]
+ 
+
+#model
+RewriteRule ^model/([0-9a-zA-Z_-]+)$ ./model.php?nick=$1 [NC,L]
+ 
+ 
+#standard user
+RewriteRule ^user/([0-9a-zA-Z_-]+)$ ./user.php?nick=$1 [NC,L]
+ 
+ 
+#blog
+RewriteRule ^blog/([0-9]+)/([0-9a-zA-Z_-]+)$ blog.php?id=$1&title=$2 [NC,L]
+ 
+
+#model-room - pewnie trzeba bedzie dodac nick ale to pozniej
+RewriteRule ^model-room/([0-9a-zA-Z_-]+)$ ./model-room.php?nick=$1 [NC,L]
+ 
+ 
+#product
+RewriteRule ^product/([0-9]+)/([0-9a-zA-Z_-]+)$ product.php?id=$1&name=$2 [NC,L]
+ 
+ 
+#transmisje - nadawanie
+RewriteRule ^broadcast/([0-9a-zA-Z_-]+)$ ./broadcast.php?nick=$1 [NC,L]
+RewriteRule ^private-broadcast/([0-9a-zA-Z_-]+)$ ./broadcast-private-model.php?nick=$1 [NC,L]
+ 
+
+#transmisje - odbieranie
+RewriteRule ^live-cam/([0-9a-zA-Z_-]+)$ ./live-cam.php?nick=$1 [NC,L]
+RewriteRule ^private-live-cam/([0-9a-zA-Z_-]+)$ ./private-live-cam.php?nick=$1 [NC,L]

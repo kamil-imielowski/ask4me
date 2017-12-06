@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="webrtc/html/publish/webrtc.js"></script>
+	<script src="webrtc/html/js/jquery-3.1.0.min.js"></script>
+	<script src="webrtc/html/js/jquery.cookie.js"></script>
+	
+</head>
+<body>
+
+<h1>ASK FOR ME - Nadawanie streamu</h1>
+<div>
+	<!-- Kod do nadawania -->
+	<input type="hidden" id="userAgent" name="userAgent" value="" />		
+	<input type="hidden" id="sdpURL" size="50" value="wss://59d1dcdf890ea.streamlock.net/webrtc-session.json"/>
+	<input type="hidden" id="applicationName" size="25" value="webrtc"/>
+	<input type="hidden" id="streamName" size="25" value=""/>
+	<input type="hidden" id="videoBitrate" size="10" value="360"/>
+	<input type="hidden" id="audioBitrate" size="10" value="64"/>
+	<input type="hidden" id="videoFrameRate" size="10" value="29.97"/>
+	<input type="button" id="button-start-streaming" onclick="start()" value="" />
+	<video id="broadcast-player" autoplay muted style="height:400px; width:600px"></video>
+	
+	<script type="text/javascript">		
+	document.getElementById("userAgent").value = navigator.userAgent;
+	var video = document.getElementById("broadcast-player");			
+	$( document ).ready(function() {
+		$("#sdpURL").val("wss://59d1dcdf890ea.streamlock.net/webrtc-session.json");
+		var id_stream = "testask"; // tu zmienna np: ID transmisji, nazwa uzytkownika nadającego itp.
+		$("#streamName").val("ask_"+id_stream);				
+		setTimeout(function(){ $('#button-start-streaming').click(); }, 1000);				
+	});
+
+	//pageReady();
+	</script>	
+	<!-- koniec Kod do nadawania -->
+</div>
+
+</body>
+</html>			
