@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="en">
+
+    <logIn>Logowanie</logIn>
+    <email>E-mail</email>
+    <password>Hasło</password>
+    <repassword>powtórz hasło</repassword>
+    <adminPanel>Panel administracyjny</adminPanel>
+    <myAccount>Moje konto</myAccount>
+    <profile>Profil</profile>
+    <logOut>Wyloguj się</logOut>
+    <dashboard>Pulpit</dashboard>
+    <error-login>Błedny login lub hasło</error-login>
+    <error-invPas>Nieprawidłowe hasło</error-invPas>
+    <error-npeop>Nowe i stare hasło sa identyczne</error-npeop>
+    <error-rpassN>Nowe hasła różnią się od siebie</error-rpassN>
+    <error-DBUpdate>Wystąpił błąd przy próbie aktualizacji danych</error-DBUpdate>
+    <error-DBDelete>Wystąpił błąd przy próbie usunięcia danych</error-DBDelete>
+    <error-passMinChar>Hasło musi posiadać minimum 8 znaków</error-passMinChar>
+    <alert-passChnaged>Zmieniono hasło</alert-passChnaged>
+    <passChange>Zmiana hasła</passChange>
+    <newPass>Nowe hasło</newPass>
+    <rNewPass>Powtórz nowe hasło</rNewPass>
+    <currentPass>Obecne hasło</currentPass>
+    <deleteYAcc>Usuń swoje konto</deleteYAcc>
+    <deleteAcc>Usuń konto</deleteAcc>
+    <delAccQe>Czy jesteś pewny że chcesz usunąć swoje konto?</delAccQe>
+    <delAccTi>Zostanie usunięte na zawsze i nie będziesz mógł tego cofnąć</delAccTi>
+    <delAccOK>Pomyślnie usunięto konto!</delAccOK>
+    <save>Save</save>
+    <edit>Edit</edit>
+    <delete>Delete</delete>
+    <cancel>Cancel</cancel>
+    <actions>Akcje</actions>
+    <error-DBInsert>Wystąpił błąd przy próbie zapisu danych</error-DBInsert>
+    <isset-login>Istnieje konto o takim nicku</isset-login>
+    <isset-email>Istnieje konto o takim adresie E-mail</isset-email>
+    <error-notSame>Hasła nie są identyczne</error-notSame>
+    <regulationsRequired>Wymagana jest akceptacja regulaminu</regulationsRequired>
+    <adultRequired>Wymagana jest pełnoletność</adultRequired>
+    <emailRequired>Adres E-mail jest wymagany</emailRequired>
+    <loginRequired>Nazwa użytkownika jest wymagana</loginRequired>
+    <mustLogIn>Zaloguj się aby wykonać tą operację</mustLogIn>
+    <passwordRequired>Hasło jest wymagane</passwordRequired>
+    <nameRequired>Imię jest wymagane</nameRequired>
+    <surnameRequired>Nazwisko jest wymagane</surnameRequired>
+    <notActive>To konto nie jest aktywne</notActive>
+    <actived>Twoje konto zostało aktywowane</actived>
+    <nExist>Obiekt o podanym id nie istnieje</nExist>
+    <delete-error>Wystąpił błąd podczas usuwania elementu z bazy danych</delete-error>
+    <categories>Kategorie</categories>
+    <categoryAdd>Dodaj kategorię</categoryAdd>
+    <categoryEdit>Edytuj kategorię</categoryEdit>
+    <name>Nazwa</name>
+    <dateCreated>Data utworzenia</dateCreated>
+    <insert>Dodano element</insert>
+    <updated>Zaktualizowano</updated>
+    <incorrectLink>Niepoprawny link</incorrectLink>
+    <settings>Ustawienia</settings>
+    <socialMedia>Social media</socialMedia>
+    <reSendActiv>Wyślij ponownie wiadomość aktywacyjną</reSendActiv>
+    <resendOK>Wysłano maila aktywacyjnego</resendOK>
+    <changePassword>Zmień hasło</changePassword>
+    <changeEmail>Zmień adres e-mail</changeEmail>
+    <newEmail>Nowy adres e-mail</newEmail>
+    <passChanged>Hasło zostało zmienione</passChanged>
+    <emailChanged>Adres e-mail został zmieniony</emailChanged>
+    <emailChanged-confirm>Na podany nowy adres e-mail wysłaliśmy wiadomość aktywacyjną</emailChanged-confirm>
+    <badRequest>Błędne żądanie</badRequest>
+    <incorrectPassword>Niepoprawne hasło</incorrectPassword>
+    <customers>Użytkownicy</customers>
+    <login>login</login>
+    <type>Type</type>
+    <ban>Zablokuj</ban>
+    <unBan>Odblokuj</unBan>
+    <sex-required>Zaznacz swoją płeć</sex-required>
+    <country-required>Zaznacz państwo, w którym mieszkasz</country-required>
+    <image-upload-error>Wystąpił błąd przy wgrywaniu obrazka</image-upload-error>
+    <image-uploaded>Zdjęcie zostało dodane</image-uploaded>
+    <Form-ok>Dane zostały zapisane pomyślnie</Form-ok>
+    <invalidFormat>Nieprawidłowy format pliku</invalidFormat>
+    <tooBigSize>Zbyt duży rozmiar pliku</tooBigSize>
+    <unexpectedChars>Login zawiera niedozwolone znaki</unexpectedChars>
+    <passwordTooShort>Hasło jest za krótkie (min 8 znaków)</passwordTooShort>
+    <tagLine>Tag line</tagLine>
+    <enterTagLine>Enter your tag line</enterTagLine>
+    <overview>Overview</overview>
+    <enterDescription>Enter your profile description</enterDescription>
+    <whatTurnsMeOn>What turns me on</whatTurnsMeOn>
+    <enterTurns>Enter what turns you on</enterTurns>
+    <myExpertise>My expertise</myExpertise>
+    <describeExpertise>Describe your expertise</describeExpertise>
+    <englishProficiency>English proficiency</englishProficiency>
+    <addLanguages>Add languages</addLanguages>
+    <chooseLanguage>Choose a language</chooseLanguage>
+    <languageProficiency>Language proficiency</languageProficiency>
+    <addAnotherLocation>Add another location</addAnotherLocation>
+    <basicInformation>Basic information</basicInformation>
+    <profilePhoto>Profile photo</profilePhoto>
+    <coverPhoto>Cover photo</coverPhoto>
+    <basic>Basic</basic>
+    <conversational>Conversational</conversational>
+    <fluent>Fluent</fluent>
+    <nativeOrBilingual>Native or bilingual</nativeOrBilingual>
+    <addLinkToYourSocialMedia>Add links to your social media accounts in your profile</addLinkToYourSocialMedia>
+    <cityOrRegion>City or region</cityOrRegion>
+    <chooseCountry>Choose country</chooseCountry>
+    <categoriesAndServices>Categories and services</categoriesAndServices>
+    <chooseCategoriesYourProfile>Choose categories that fit your profile</chooseCategoriesYourProfile>
+    <whatServiceAreYouProvide>What service are you going provide</whatServiceAreYouProvide>
+    <addLocationsYourServices>Add locations where you are willing to provide escort services</addLocationsYourServices>
+    <addNew>Add new</addNew>
+    <title>Title</title>
+    <blogEntryTitle>Blog entry title</blogEntryTitle>
+    <content>Content</content>
+    <blogEntryContent>Blog entry content</blogEntryContent>
+    <blogEntryThumbnail>Blog entry thumbnail</blogEntryThumbnail>
+    <addBlogEntry>Add blog entry</addBlogEntry>
+    <readMore>Read more</readMore>
+    <editBlog>Edit blog</editBlog>
+    <looks>Looks</looks>
+    <realAge>Real age</realAge>
+    <enterRealAge>Enter your real age</enterRealAge>
+    <looksAge>Looks age</looksAge>
+    <height>Height</height>
+    <enterHeight>Enter your height</enterHeight>
+    <weight>Weight</weight>
+    <enterWeight>Enter your weight</enterWeight>
+    <chestCupSize>Chest/cup size</chestCupSize>
+    <enterChestCupSize>Enter your chest/cup size</enterChestCupSize>
+    <pubicHair>Pubic hair</pubicHair>
+    <dressSize>Dress size</dressSize>
+    <ethnicity>Ethnicity</ethnicity>
+    <skinColor>Skin color</skinColor>
+    <allSkinColor>All skin color</allSkinColor>
+    <eyesColor>Eyes color</eyesColor>
+    <allEyesColor>All eyes color</allEyesColor>
+    <hairColor>Hair color</hairColor>
+    <allHairColors>All hair colors</allHairColors>
+    <bodyBuild>Body build</bodyBuild>
+    <bodyDecorations>Body decorations</bodyDecorations>
+    <bodyDecoration>Body decoration</bodyDecoration>
+    <blog>Blog</blog>
+    <myProducts>My products</myProducts>
+    <bannedAcc>Your account has banned</bannedAcc>
+    <companyName>Nazwa firmy</companyName>
+    <firstName>Imię</firstName>
+    <address>Adres</address>
+    <city>Miasto</city>
+    <postalCode>Kod pocztowy</postalCode>
+    <selectCountry>Wybierz kraj</selectCountry>
+    <addProduct>Add product</addProduct>
+    <editProduct>Edit product</editProduct>
+    <products>Produkty</products>
+    <discountCodes>Kody rabatowe</discountCodes>
+    <modelItems>Model items</modelItems>
+    <feautured>Feautured</feautured>
+    <by>by</by>
+    <addToCart>Add to cart</addToCart>
+    <sendAsAGift>Send as a gift</sendAsAGift>
+    <productDescription>Product description</productDescription>
+    <otherProductFrom>Other product from</otherProductFrom>
+    <otherProduct>Other product</otherProduct>
+    <tooLittleTokens>You have too little tokens</tooLittleTokens>
+    <addTokens>Add tokens</addTokens>
+    <buyItems>Buy items</buyItems>
+    <sendGift>Send gift</sendGift>
+    <tokenAmountIsEmpty>Token amount is empty</tokenAmountIsEmpty>
+    <soldProducts>Sold products</soldProducts>
+    <productName>Product name</productName>
+    <productPriceInTokens>Product price (in tokens)</productPriceInTokens>
+    <productThumbnail>Product thumbnail</productThumbnail>
+    <productFile>Product file</productFile>
+    <enterProductName>Enter product name</enterProductName>
+    <enterProductDescription>Enter product description</enterProductDescription>
+    <enterProductPrice>Enter product price</enterProductPrice>
+    <myPurchaseHistory>My purchase history</myPurchaseHistory>
+    <download>Download</download>
+    <receivedGifts>Received gifts</receivedGifts>
+    <sentGifts>Sent gifts</sentGifts>
+    <for>For</for>
+    <wishlistItem>Wishlist item</wishlistItem>
+    <file>File</file>
+    <sent>Sent</sent>
+    <received>Received</received>
+    <somethingWrong>Something wrong</somethingWrong>
+    <general>General</general>
+    <vipRequired>VIP membership is required on this side</vipRequired>
+    <whatAreYouLooking>WHAT ARE YOU LOOKING FOR</whatAreYouLooking>
+    <realEscortGirls>Real escort girls</realEscortGirls>
+    <virtualCamModels>Virtual cam models</virtualCamModels>
+    <browseCamModels>Browse cam-models</browseCamModels>
+    <borwseEscortGirl>Browse escort girls</borwseEscortGirl>
+    <findPerfectModel>Find the perfect model for you</findPerfectModel>
+    <searchModels>Search models</searchModels>
+    <mostPopularCamModels>Most popular cam models</mostPopularCamModels>
+    <mostPopularEscortModels>Most popular escort models</mostPopularEscortModels>
+    <findGirlsCloseToYourLocation>Find girls close to your location</findGirlsCloseToYourLocation>
+    <messages>Messages</messages>
+    <youHaveNewGift>You've received a new gift from</youHaveNewGift>
+    <goToGift>Go to the gifts page</goToGift>
+    <hasAddedNew>has added a new</hasAddedNew>
+    <toHerShop>to her shop</toHerShop>
+    <goToProduct>Go to the product page</goToProduct>
+    <hasPlanedNew>has planned a new</hasPlanedNew>
+    <subscribe>Subscribe</subscribe>
+    <blogEntry>blog entry</blogEntry>
+    <readTheBlog>Read the blog entry</readTheBlog>
+    <photo>photo</photo>
+    <goToUserGallery>Go to the user's gallery</goToUserGallery>
+    <escortOnly>Escort only</escortOnly>
+    <webcamOnly>Webcam only</webcamOnly>
+    <requiredBasicMembership>required basic membership</requiredBasicMembership>
+    <requiredVIPMembership>required VIP membership</requiredVIPMembership>
+    <currentBalance>Current balance</currentBalance>
+    <enter>Enter now</enter>
+    <noOneBestsellersProducts>No one bestsellers products</noOneBestsellersProducts>
+    <noOneNewProducts>No one new products</noOneNewProducts>
+    <noOneModelProducts>No one model products</noOneModelProducts>
+    <dontHavePurchase>You don't have purchase history</dontHavePurchase>
+    <dontHaveReceivedGifts>You don't have received gifts</dontHaveReceivedGifts>
+    <dontHaveSentGifts>You don't have sent gifts</dontHaveSentGifts>
+    <noResult>No result</noResult>
+    <start>start</start>
+    <chooseYourPerfectEscort>CHOOSE YOUR PERFECT ESCORT</chooseYourPerfectEscort>
+    <chooseYourPerfectEscortForTaste>Choose your perfect escort for your taste: check our escort navigator.</chooseYourPerfectEscortForTaste>
+    <chooseYourWebcamModel>CHOOSE YOUR WEBCAM MODEL</chooseYourWebcamModel>
+    <chooseYourPerfectWebcamModel>Choose your perfect webcam model for your taste: check our webcam navigator.</chooseYourPerfectWebcamModel>
+    <fast>fast</fast>
+    <safe>safe</safe>
+
+
+
+
+
+    <userDExist>Brak takiego użytkownika w serwisie</userDExist>
+    <lastWithdrawal>Last withdrawal</lastWithdrawal>
+    <tokenAmount>Token amount</tokenAmount>
+    <youWillReceive>You will receive</youWillReceive>
+    <enterBankAccountData>Enter bank account data you want the money to be transferred to</enterBankAccountData>
+    <bankAccountNumber>Bank account number</bankAccountNumber>
+    <code>code</code>
+    <accountOwnerName>Account owner's name</accountOwnerName>
+    <accountOwnerLastName>Account owner's last name</accountOwnerLastName>
+    <withdraw>withdraw</withdraw>
+    <membershipAndEarnings>Membership and earnings</membershipAndEarnings>
+    <gifts>Gifts</gifts>
+    <home>Home</home>
+    <account>Account</account>
+    <following>Following</following>
+    <purchases>Purchases</purchases>
+    <enterCode>Enter code</enterCode>
+    <introduceYourself>Introduce yourself</introduceYourself>
+    <notificationSettings>Norification settings</notificationSettings>
+    <plannedActivities>Planned activities</plannedActivities>
+    <applyFilters>Appyly filters</applyFilters>
+    <nextPage>Next page</nextPage>
+    <previousPage>Previous page</previousPage>
+    <storeHomepage>Store homepage</storeHomepage>
+    <membershipAndTokens>Membership and tokens</membershipAndTokens>
+    <bestsellers>Bestsellers</bestsellers>
+    <newItems>New items</newItems>
+    <featured>Featured</featured>
+    <featuredItems>Featured items</featuredItems>
+    <newProducts>New products</newProducts>
+    <!-- Frazy -->
+        <signIn>Sign in</signIn>
+        <signOut>Sign out</signOut>
+        <register>Register</register>
+        <cart>Cart</cart>
+        <liveCams>Live cams</liveCams>
+        <escort>Escort</escort>
+        <contest>Contest</contest>
+        <store>Store</store>
+
+        <gender>gender</gender>
+        <allGenders>all genders</allGenders>
+        <woman>woman</woman>
+        <man>man</man>
+        <transgender>transgender</transgender>
+
+        <partnerPreferences>Partner preferences</partnerPreferences>
+        <allPreferences>all preferences</allPreferences>
+        <solo>Solo</solo>
+        <girl-girl>Girl-girl</girl-girl>
+        <boy-girl>Boy-girl</boy-girl>
+        <boy-girl-girl>Boy-girl-girl</boy-girl-girl>
+        <boy-boy-girl>Boy-boy-girl</boy-boy-girl>
+        <fetish>Fetish</fetish>
+        <girl-transgender>Girl-transgender</girl-transgender>
+
+        <services>services</services>
+        <web>web</web>
+        <inPearson>in pearson</inPearson>
+        <both>both</both>
+
+        <age>age</age>
+        <allAges>all ages</allAges>
+
+        <country>Kraj</country>
+        <allCountries>all countries</allCountries>
+
+        <language>language</language>
+        <languages>languages</languages>
+        <allLanguages>all languages</allLanguages>
+
+        <forgotPassword>Forgot password?</forgotPassword>
+        <rememberMe>Remember me</rememberMe>
+        <email-address>E-mail address</email-address>
+        <password>Password</password>
+        <username>Username</username>
+        <rePassword>Re-type password</rePassword>
+
+        <registerCheck1>I agree to Terms and Conditions</registerCheck1>
+        <iAgreeTo>I agree to</iAgreeTo>
+        <termsAndConditions>Terms and Conditions</termsAndConditions>
+        <checkAdult>I am 18+ years old</checkAdult>
+        <createModel>Create a model account</createModel>
+        <createRegular>Create a regular account</createRegular>
+        <followUs>Follow us</followUs>
+        <about>About</about>
+        <models>Models</models>
+        <customers>Customers</customers>
+        <legal>Legal</legal>
+        <aboutAskForMe>About Ask for me</aboutAskForMe>
+        <faq>FAQ</faq>
+        <partnership>Partnership</partnership>
+        <contact>Contact</contact>
+        <yourAccount>Your account</yourAccount>
+        <accountSettings>Ustawienia konta</accountSettings>
+        <getPaid>Get paid</getPaid>
+        <membership>Membership</membership>
+        <membershipAndErnings>Członkostwo i dochody</membershipAndErnings>
+        <startAnActivity>Start an activity</startAnActivity>
+        <userAgreement>User agreement</userAgreement>
+        <privacyPolicy>Privacy policy</privacyPolicy>
+        <copyrights>Copyrights</copyrights>
+        <lastName>Last name</lastName>
+        <firstName>First name</firstName>
+        <howDidYouHear>How did you hear about Ask-For.me?</howDidYouHear>
+
+        <newMessages>New messages</newMessages>
+        <youHaveNewMessage>You've got a new message from</youHaveNewMessage>
+        <goToMessage>Go to the messages page</goToMessage>
+        <notifications>Powiadomienia</notifications>
+        <Email_notifications>Powiadomienia e-mail</Email_notifications>
+        <notificationsSettings>Ustawienia powiadomień</notificationsSettings>
+        <receiveNotAb>Otrzymuj powiadomienia dotyczące</receiveNotAb>
+        <receiveEmialNotAb>Otrzymuj powiadomienia e-mail dotyczące</receiveEmialNotAb>
+        <invites>Invites</invites>
+        <tokens>Tokens</tokens>
+        <currentBalance>Stan konta</currentBalance>
+        <buyMoreTokens>Kup więcej tokenów</buyMoreTokens>
+        <currentMemberShipPlan>Obecny plan członkowski</currentMemberShipPlan>
+        <vipMembership>Członkostwo VIP</vipMembership>
+        <basicMembership>Członkostwo podstawowe</basicMembership>
+        <freeMembership>Brak członkostwa</freeMembership>
+        <validTo>ważne do</validTo>
+        <change>zmień</change>
+        <mostTokensFrom>Most tokens from</mostTokensFrom>
+
+
+        <np_npm>Nowej prywatnej wiadomości</np_npm>
+        <np_nr>Nowego żądania</np_nr>
+        <np_nf>Nowych obserwujących Cię</np_nf>
+        <np_ng>Nowych prezentów</np_ng>
+        <np_sp>Sprzedanych produktów</np_sp>
+        <np_afuif>Aktywności użytkowników, których obserwujesz</np_afuif>
+        <np_rmataihp>Przypominaj mi o aktywnościach, które zaplanowałem</np_rmataihp>
+        <np_sound>Odtwarzać dzwięk powiadomień?</np_sound>
+
+        <searchEngineAd>Search Engine Ad</searchEngineAd>
+        <searchEngineResults>Search Engine Results</searchEngineResults>
+        <friend>Friend</friend>
+        <blogOrForum>Blog or Forum</blogOrForum>
+        <newspaperOrMagazine>Newspaper or Magazine</newspaperOrMagazine>
+        <eventOrConference>Event or Conference</eventOrConference>
+        <radio>Radio</radio>
+        <television>Television</television>
+        <other>Other</other>
+
+        <registerModelCheck1-1>Yes, I understand and agree to the Ask-For.me</registerModelCheck1-1>
+        <thermsAndService>Therms and Service</thermsAndService>
+        <and>and</and>
+        <includingThe>including the</includingThe>
+        <registerModelCheck2>Yes! Send me genuinely useful emails every now and then to help me get the most out of Ask-For.me</registerModelCheck2>
+        <yes>Tak</yes>
+        <no>Nie</no>
+
+        <yourPhotosAndVideos>Your photos and videos</yourPhotosAndVideos>
+        <addPhotosAndVideos>Add photos and videos</addPhotosAndVideos>
+        <addPhotos>Add photos</addPhotos>
+        <addVideos>Add videos</addVideos>
+        <defaultVideo>Default viedo for your offline room</defaultVideo>
+        <recommendedFormat>Recommended format</recommendedFormat>
+        <recommendedSize>Recommended size</recommendedSize>
+        <addAnotherPhoto>Add another photo</addAnotherPhoto>
+        <addAnotherVideo>Add another video</addAnotherVideo>
+
+        <availabilitySettings>Availability settings</availabilitySettings>
+        <availability>Availability</availability>
+        <monday>Monday</monday>
+        <tuesday>Tuesday</tuesday>
+        <wednesday>Wednesday</wednesday>
+        <thursday>Thursday</thursday>
+        <friday>Friday</friday>
+        <saturday>Saturday</saturday>
+        <sunday>Sunday</sunday>
+        <addTimeRange>Add another timerange</addTimeRange>
+        <delTimeRange>Delete this timerange</delTimeRange>
+        <from>From</from>
+        <to>To</to>
+        <incorrTimeRange>Incorrect timerange</incorrTimeRange>
+        <upcomingActivities>Upcoming activities</upcomingActivities>
+        <recentActivity>Recent activity</recentActivity>
+        <block>Block</block>
+        <report>Report</report>
+        <about_me>About me</about_me>
+        <book_me>Book me</book_me>
+        <gallery>Gallery</gallery>
+        <wishlist>Wishlist</wishlist>
+        <feedback>Feedback</feedback>
+        <myRoom>My Room</myRoom>
+        <planAnActivity>Plan an activity</planAnActivity>
+        <dateAndTime>Date and time</dateAndTime>
+        <typeOfActivity>Type of activity</typeOfActivity>
+        <Tactivity-public>Public webcam broadcast</Tactivity-public>
+        <Tactivity-privateChat>Private webcam performance with chat only</Tactivity-privateChat>
+        <Tactivity-privateAll>Private webcam performance with 2-way audio/video</Tactivity-privateAll>
+        <Tactivity-person>In person</Tactivity-person>
+        <broadcastTitle>Broadcast title</broadcastTitle>
+        <enterUsername>Enter username</enterUsername>
+        <chooseFPCustomers>Or choose a previous customer</chooseFPCustomers>
+        <chooseYourGender>Choose your gender</chooseYourGender>
+        <choosePreferredPartnergender>Choose preferred partner's gender</choosePreferredPartnergender>
+        <ChooseCategoriesYouAreInterestedIn>Choose categories you are interested in</ChooseCategoriesYouAreInterestedIn>
+        <ProfileVisivbility>Profile visivbility</ProfileVisivbility>
+        <PrivateRequiredMembership>Private (required membership)</PrivateRequiredMembership>
+        <public>Public</public>
+        <noOneFolowYou>No one follow you</noOneFolowYou>
+        <UDFollowAnyone>You don't follow anyone</UDFollowAnyone>
+
+        <priceTables>Price tables</priceTables>
+        <price-inPerson-escortServices>In person/escort services</price-inPerson-escortServices>
+        <price-inPerson-escortServices-description>Lorem ipsum dolor sit amet dolor. In nec massa. Maecenas lacus. Ut eu euismod orci sem condimentum nec, lacinia id, mattis lorem velit eleifend nunc fringilla enim, id nisl ut nulla bibendum metus nunc, ac turpis in dui. Cras.</price-inPerson-escortServices-description>
+        <activityDescription>Activity description</activityDescription>
+        <price>Price</price>
+        <perHour>per hour</perHour>
+        <forTheActivity>for the activity</forTheActivity>
+        <deleteActivity>Delete this activity</deleteActivity>
+        <addEscortActivity>Add another escort service activity</addEscortActivity>
+        <publicWebcamPerformance>Public webcam performance</publicWebcamPerformance>
+        <publicWebcamPerformance-description>Aenean nonummy dui aliquam eget, ultricies nec, posuere cubilia Curae, Sed eu mauris. Etiam vehicula ut, metus. Curabitur ut lacus et netus et turpis. Donec nonummy, erat. In hendrerit purus at ligula. Aliquam gravida gravida.</publicWebcamPerformance-description>
+        <doingSTH>Doing something</doingSTH>
+        <vote>Vote</vote>
+        <whatNext>What should I do next?</whatNext>
+        <dWhatUllDo>Describe what you will do</dWhatUllDo>
+        <howManyVotesForWin>How many votes are required for the option to win?</howManyVotesForWin>
+        <addPublicWebcamActivity>Add another pubblic webcam activity</addPublicWebcamActivity>
+        <addPrivateChatWebcamActivity>Add another private chat activity</addPrivateChatWebcamActivity>
+        <addPrivateWebcamActivity>Add another private webcam activity</addPrivateWebcamActivity>
+        <privateWebcamPerformance>Private webcam performance</privateWebcamPerformance>
+        <privateWebcamPerformance-description>Integer aliquam. In hac habitasse platea dictumst. Aenean ipsum feugiat sapien, sagittis a, iaculis ut, diam. Phasellus ornare facilisis metus. In hac habitasse platea dictumst. Aenean et ultrices lorem id.</privateWebcamPerformance-description>
+        <pricePerMinute>Price per minute</pricePerMinute>
+        <spyCamEnabledWB>Spy cam enabled (can be disabled by the customer)</spyCamEnabledWB>
+        <spyCamEnabled>Spy cam enabled</spyCamEnabled>
+        <priceForSpyCam-perMinute>Price for spy cam (per minute)</priceForSpyCam-perMinute>
+        <privateWebCamP2W>Private webcam performance with 2 way audio/video</privateWebCamP2W>
+        <pricePerVote>Price per vote</pricePerVote>
+        <describe1stOpt>Describe 1st option</describe1stOpt>
+        <describe2ndOpt>Describe 2nd option</describe2ndOpt>
+        <describe3rdOpt>Describe 3rd option</describe3rdOpt>
+        <enterTitle>Enter title</enterTitle>
+        <activity>activity</activity>
+        <selectActivity>Select an activity</selectActivity>
+        <addAnActivity>Add another activity</addAnActivity>
+        <chooseFromTheList>Choose from the list</chooseFromTheList>
+        <chooseActivity>Choose activity</chooseActivity>
+        <minDurationInMin>Min. duration (in minutes)</minDurationInMin>
+        <minimumDuration>Minimum duration</minimumDuration>
+        <confirmChangePriceTokens>Confirm or change the price (in tokens)</confirmChangePriceTokens>
+        <additionalComments>Additional comments</additionalComments>
+        <enterAdditionalInfo>Enter additional information</enterAdditionalInfo>
+        <durationInHours>Duration (in hours)</durationInHours>
+        <duration>Duration</duration>
+        <totalPrice>Total price</totalPrice>
+        <nomatchfound>No exact match found</nomatchfound>
+        <chatOnly>chat only</chatOnly>
+        <w2AudioVideo>2-way audio/video</w2AudioVideo>
+        <inPersonService>In person service</inPersonService>
+        <cancelAnActivity>Cancel an activity</cancelAnActivity>
+        <cancelAnActivityQuestion>Are you sure you want to cancel the activity?</cancelAnActivityQuestion>
+        <startingSoon>Starting soon</startingSoon>
+        <startNow>Start now</startNow>
+        <activityScheduledIn>You have an activity scheduled in</activityScheduledIn>
+        <minutes>minutes</minutes>
+        <addAndStartAnActivity>Add a new activity and start now</addAndStartAnActivity>
+        <cantFollowYourself>You can't follow yourself</cantFollowYourself>
+        <profilesUreFollow>Profiles you are following</profilesUreFollow>
+        <followers>Followers</followers>
+        <dashboardHomepage>Dashboard homepage</dashboardHomepage>
+        <yourVisitors>Users who vistited your profile</yourVisitors>
+        <visitGallery>Visit gallery</visitGallery>
+        <visitFeedBackPage>Visit feedback page</visitFeedBackPage>
+        <visitBlog>Visit blog</visitBlog>
+        <visitStore>Visit store</visitStore>
+        <addedPhoto>added a photo</addedPhoto>
+        <receivedFeedback>received a new feedback</receivedFeedback>
+        <addedBlogEntry>added a blog entry</addedBlogEntry>
+        <addedNewProduct>added a new product</addedNewProduct>
+        <addedVideo>added a video</addedVideo>
+        <personalDetails>Personal details</personalDetails>
+        <kinkyFeatures>Kinky features</kinkyFeatures>
+        <bodyComplexion>Body complexion</bodyComplexion>
+        <ethnicity_asian>Asian</ethnicity_asian>
+        <ethnicity_black>Black</ethnicity_black>
+        <ethnicity_latina>Latina</ethnicity_latina>
+        <ethnicity_middleEastern>Middle-eastern</ethnicity_middleEastern>
+        <ethnicity_white>White</ethnicity_white>
+        <ethnicity_mixedRace>Mixed race</ethnicity_mixedRace>
+        <bodyBuild_all>All body builds</bodyBuild_all>
+        <bodyBuild_slim>Slim</bodyBuild_slim>
+        <bodyBuild_athletic>Athletic</bodyBuild_athletic>
+        <bodyBuild_healthy>Healthy</bodyBuild_healthy>
+        <bodyBuild_veryHealthy>Very healthy</bodyBuild_veryHealthy>
+        <sendRequest>Send request</sendRequest>
+        <requestSended>Request has been sent</requestSended>
+        <time>Time</time>
+        <minLength>Min. length</minLength>
+        <length>Length</length>
+        <accept>Accept</accept>
+        <accepted>Accepted</accepted>
+        <decline>Decline</decline>
+        <declined>Declined</declined>
+        <hour>hour</hour>
+        <spyCamDisabled>Spy cam disabled</spyCamDisabled>
+        <spyCamEnabled>Spy cam enabled</spyCamEnabled>
+        <sentRequests>Sent requests</sentRequests>
+        <wait4uDecision>waiting for user's decision</wait4uDecision>
+        <newRequests>New requests</newRequests>
+        <pending>Pending</pending>
+        <editedRequests>Edited requests</editedRequests>
+        <receivedRequests>Received requests</receivedRequests>
+        <noDeclinedRequests>No declined requests</noDeclinedRequests>
+        <noEditedRequests>No edited requests</noEditedRequests>
+        <noAcceptedRequests>No accepted requests</noAcceptedRequests>
+        <noPendingRequests>No pending requests</noPendingRequests>
+        <noNewRequests>No new requests</noNewRequests>
+        <editAnActivity>Edit an activity</editAnActivity>
+        <editRequest>Edit Request</editRequest>
+        <requests>Requests</requests>
+        <uveNreqfor>You've got a new request for</uveNreqfor>
+        <goToRequestsPage>Go to the requests page</goToRequestsPage>
+        <youveAcceptedRequest>You've accepted an request for</youveAcceptedRequest>
+        <youveDeclineddRequest>You've declined an request for</youveDeclineddRequest>
+        <youveEditedRequest>You've edited an request for</youveEditedRequest>
+        <requestHasBeenSent>request has been sent</requestHasBeenSent>
+        <hasAcceptedReqestFor>has accepted your request for</hasAcceptedReqestFor>
+        <hasDeclinedReqestFor>has declined your request for</hasDeclinedReqestFor>
+        <on>on</on>
+        <edited>edited</edited>
+        <startedfollowingY>has started following you</startedfollowingY>
+        <male>male</male>
+        <female>female</female>
+        <lookingFor>Looking for</lookingFor>
+        <categoryPreferences>Category preferences</categoryPreferences>
+        <giftWasSent>Gift was sent</giftWasSent>
+        <error-TransmissionCreate>Wystąpił błąd podczas tworzenia transmisji</error-TransmissionCreate>
+        <error-Transmission>Transmisja zakończona</error-Transmission>
+        <min>min</min>
+        <endBroadcast>End broadcast</endBroadcast>
+        <groupChat>Group chat</groupChat>
+        <privateChat>Private chat</privateChat>
+        <currentActivity>Current activity</currentActivity>
+        <currentActivityType>Current activity type:</currentActivityType>
+        <sendTip>Send a tip</sendTip>
+        <enterTokenAmount>Enter token amount</enterTokenAmount>
+        <broadcastEnd>The broadcast has been stopped</broadcastEnd>
+        <invoiceData>Invoice data</invoiceData>
+        <notEnoughTokens>You don't have enough tokens to do this operation</notEnoughTokens>
+        <tokensReceived>Tokens received</tokensReceived>
+        <requiredTokens>Required tokens</requiredTokens>
+        <upcoming>Upcoming</upcoming>
+        <completed>Completed</completed>
+        <current>Current</current>
+        <votes>votes</votes>
+        <voteEnded>Głosowanie dobiegło konca</voteEnded>
+        <currentActivityProgresReach>Progress of current activity has been reached</currentActivityProgresReach>
+        <partner>Partner</partner>
+        <activityInfo>Activity info</activityInfo>
+        <spyCam>Spy cam</spyCam>
+        <enabled>enabled</enabled>
+        <disabled>disabled</disabled>
+        <YDNpermissionTATP>you don't have permission to access this page</YDNpermissionTATP>
+        <hasNoToken>has no tokens</hasNoToken>
+        <areUsureToContinue>Do you want continue private broadcast for free?</areUsureToContinue>
+        <uDontHaveAnyVisityet>No one visited your profile yet</uDontHaveAnyVisityet>
+        <uDontHaveAnyupcomingA>You dont have any upcoming activities yet</uDontHaveAnyupcomingA>
+        <uDontHaveAnyReq>You dont have any request at the moment</uDontHaveAnyReq>
+        <uDontHsoldAnyProd>You didn't sold any products</uDontHsoldAnyProd>
+        <uDontHaveAnyFollowers>No one following you yet</uDontHaveAnyFollowers>
+        <uDontHaveAnyNot>You don't have any notifications</uDontHaveAnyNot>
+        <profilePage>Profile page</profilePage>
+        <chooseServices>Choose services</chooseServices>
+
+    <!-- END Frazy -->
+
+    <!-- EMAILS -->
+    <emailError>Wystąpił błąd podczas wysyłania wiadomości e-mail</emailError>
+    <noReplyAddress>no-reply@ask-for.me</noReplyAddress>
+    <!-- <Mail aktywacyjny> -->
+        <activateAccount>Aktywuj swoje konto klikając w link poniżej</activateAccount>
+        <activate>Aktywuj</activate>
+        <activateMailSubject>Aktywuj swoje konto na ask-for</activateMailSubject>
+        <sendAddressRegister>rejestracja@ask-for.me</sendAddressRegister>
+        <fromNameRegister>Ask-for rejestracja</fromNameRegister>
+    <!-- </Mail aktywacyjny> -->
+    <!-- <Mail przypominajacy hasło> -->
+        <resetPasswordEmail>Twoje hasło zostało zresetowane. Aby ustawić nowe hasło kliknij w link poniżej!</resetPasswordEmail>
+        <resetPassMailSubject>Odzyskiwanie hasła</resetPassMailSubject>
+        <sendAddressResetPass>support@ask-for.me</sendAddressResetPass>
+        <fromNameResetPass>Ask-for pomoc</fromNameResetPass>
+        <passResetSend>E-mail do zmiany hasła został wysłany</passResetSend>
+    <!-- </Mail przypominajacy hasło> -->
+    <!-- <Mail potwierdzajacy zmiane adresu e-mail> -->
+    <confirmNewEmail>Potwierdź zmianę adresu e-mail klikając w link poniżej</confirmNewEmail>
+    <confirmNewEmail-subject>Zmiana adresu e-mail</confirmNewEmail-subject>
+    <confirmNewEmail-sendAdress>support@ask-for.me</confirmNewEmail-sendAdress>
+    <confirmNewEmail-fromName>Ask-for pomoc</confirmNewEmail-fromName>
+    <confirm>Potwierdź</confirm>
+    <!-- </Mail potwierdzajacy zmiane adresu e-mail> -->
+</language>

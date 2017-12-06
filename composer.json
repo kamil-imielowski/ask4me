@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "classes\\": "classes",
+            "webSocketServer\\": "webSocketServer/src"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^5.2",
+        "paypal/rest-api-sdk-php": "*",
+        "cboden/ratchet": "^0.4.0"
+    }
+}
